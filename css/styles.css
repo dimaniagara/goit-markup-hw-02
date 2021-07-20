@@ -2,6 +2,7 @@
   --primary-text-color: #757575;
   --main-color: #212121;
   --secondary-color: #ffffff;
+  --third-color: #f5f4fa;
   --accent-color: #2196f3;
 }
 body {
@@ -88,4 +89,64 @@ h1 {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--third-color);
+}
+.logo-second {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+.logofooter {
+  color: var(--secondary-color);
+}
+/* footer */
+footer {
+  background-color: var(--main-color);
+}
+address {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color5);
+}
+.location {
+  color: var(--secondary-color);
+}
+.footer-list {
+  color: var(--primary-text-color);
+}
+.secondary-button:hover,
+.secondary-button:focus {
+  border-radius: 4px;
+  background-color: var(--accent-color);
+  color: var(--secondary-color);
+  cursor: pointer;
 }

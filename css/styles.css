@@ -139,6 +139,7 @@ h1 {
   background-color: var(--third-color);
 }
 .logo-second {
+  text-decoration: none;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -160,10 +161,15 @@ address {
   letter-spacing: 0.03em;
   color: var(--primary-text-color5);
 }
+.address {
+  list-style: none;
+}
 .location {
+  text-decoration: none;
   color: var(--secondary-color);
 }
 .footer-list {
+  text-decoration: none;
   color: var(--primary-text-color);
 }
 .secondary-button:hover,
